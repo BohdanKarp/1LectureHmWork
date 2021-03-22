@@ -13,18 +13,18 @@ public class Main {
             System.out.print(i + " ");
         }
         System.out.println(");");
-        for (int i:numbers) {
-            if(i>0)
-                sum+= i;
-      }
-        System.out.println("Сума всіх додатніх чисел = "+sum+";");
-
-
-        for (int i:numbers){
-            average +=i;
-            
+        for (int i : numbers) {
+            if (i > 0)
+                sum += i;
         }
-         
-        System.out.println("Середнє арифметичне всіх чисел масиву= "+average/numbers.length+"; ");
+        System.out.println("Сума всіх додатніх чисел = " + sum + ";");
+
+
+        for (int i : numbers) {
+            average += i;
+
+        }
+
+        System.out.println("Середнє арифметичне всіх чисел масиву= " + average / numbers.length + "; ");
     }
 }
