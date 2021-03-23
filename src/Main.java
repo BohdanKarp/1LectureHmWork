@@ -52,6 +52,6 @@ public class Main {
             }
 
         }
-        System.out.print(Arrays.toString(replaceNum));
+        System.out.print("В масиві було замінено всі дубльовані значення на 0: "+Arrays.toString(replaceNum));
     }
 }
