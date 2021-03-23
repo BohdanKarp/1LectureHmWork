@@ -39,19 +39,19 @@ public class Main {
 //        *You have array {3,2,3,1,4,2,8,3}. Replace all duplicated values by 0.
 //        Result should be  next: {3,2,0,1,4,0,8,0}
 
-        Integer[] replaceNum = {3,2,3,1,4,2,8,3};
+        Integer[] replaceNum = {3, 2, 3, 1, 4, 2, 8, 3};
         for (Integer i : replaceNum) {
-            for (int j = i + 1; j < replaceNum.length; j++){
-                                      
+            for (int j = i + 1; j < replaceNum.length; j++) {
+
                 if (replaceNum[i].equals(replaceNum[j])) {
 
-                replaceNum[j]=0;
+                    replaceNum[j] = 0;
 
                 }
-                  
+
             }
 
         }
-        System.out.print("В масиві було замінено всі дубльовані значення на 0: "+Arrays.toString(replaceNum));
+        System.out.print("В масиві було замінено всі дубльовані значення на 0: " + Arrays.toString(replaceNum));
     }
 }
